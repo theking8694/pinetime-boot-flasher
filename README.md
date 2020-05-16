@@ -9,6 +9,7 @@ Many thanks to lupyuen https://github.com/lupyuen/ for their work on the scripts
 1. A Raspberry PI
 2. openocd-spi (https://github.com/lupyuen/openocd-spi)
 3. Your bootloader file
+4. The command "sed" (check by using the command to see the help)
 
 #How to use
 1. Move the openocd-spi folder to the Desktop folder
