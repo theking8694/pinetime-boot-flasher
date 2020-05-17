@@ -16,7 +16,8 @@ Many thanks to lupyuen https://github.com/lupyuen/ for their work on the scripts
 1.a. (When the folder is opened, you should see a folder named bin)
 2. Download this repo's files
 3. Get the desired bootloader file
-4. In a terminal, run the flash-boot.sh
-5. You will be asked to enter the path to the bootloader, enter it
+4. Connect the Pi to the PineTime SWD pins (look at (https://gist.github.com/lupyuen/6913bcd5ff5a5d67698f8bac0d84599b#file-pi-swd-spi-md))
+5. In a terminal, run the flash-boot.sh
+6. You will be asked to enter the path to the bootloader, enter it
 You can also drag the file in if your terminal supports it (should on Raspbian)
-6. Thats all!
+&. Thats all!
