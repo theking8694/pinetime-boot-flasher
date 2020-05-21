@@ -11,6 +11,6 @@ echo "THE PATH CAN NOT CONTAIN @"
 read bootfilepath
 sed --expression "s@bootpath@$bootfilepath@g" flash-boot.ocd flash-boot-replace.ocd
 
-openocd/bin/openocd \
+~/Desktop/openocd-spi/src/openocd \
     -f ~/Desktop/swd-pi.ocd \
     -f ~/Desktop/flash-boot-replace.ocd
