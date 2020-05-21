@@ -21,4 +21,4 @@ Many thanks to lupyuen https://github.com/lupyuen/ for their work on the scripts
 5. In a terminal, run the flash-boot.sh
 6. You will be asked to enter the path to the bootloader, enter it
 * You can also drag the file in if your terminal supports it (this should work on Raspbian)
-&. Thats all!
+* Thats all!
