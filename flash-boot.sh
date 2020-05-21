@@ -12,5 +12,5 @@ read bootfilepath
 sed --expression "s@bootpath@$bootfilepath@g" flash-boot.ocd flash-boot-replace.ocd
 
 openocd/bin/openocd \
-    -f ./swd-pi.ocd \
-    -f ./flash-boot-replace.ocd
+    -f ~/Desktop/swd-pi.ocd \
+    -f ~/Desktop/flash-boot-replace.ocd
