@@ -10,7 +10,7 @@ Many thanks to lupyuen https://github.com/lupyuen/ for their work on the scripts
 2. openocd-spi (https://github.com/lupyuen/openocd-spi)
 3. Your bootloader file
 4. The command "sed" (check by using the command to see the help)
-5. Unprotected flash ( run flash-unprotect.sh instead of flash-boot.sh in step 5, then redo with flash-boot)
+5. Unprotected flash ( run flash-unprotect.sh instead of flash-boot.sh in step 5 (skip step 6), then redo with flash-boot)
 
 * How to use
 1. Move the openocd-spi folder to the Desktop folder
