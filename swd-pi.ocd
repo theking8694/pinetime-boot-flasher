@@ -1,7 +1,9 @@
 # OpenOCD script for using Raspberry Pi as SWD Programmer for nRF52
 
 # VSCode debugger searches this folder for OpenOCD scripts
-add_script_search_dir openocd/scripts
+add_script_search_dir openocd-spi/scripts
+add_script_search_dir openocd-spi/tcl
+# fixes inability to find nrf52.cfg
 
 # Select the Broadcom SPI interface for Raspberry Pi (SWD transport)
 interface bcm2835spi
