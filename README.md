@@ -1,7 +1,5 @@
 # pinetime-boot-flasher
-# I HAVE NOT TESTED THIS ON A DEVICE YET    
-USE AT YOUR OWN RISK
-(It should be fine though. I hope.)
+I have tested this on my own PineTime :)
 
 Many thanks to lupyuen https://github.com/lupyuen/ for their work on the scripts that this is based upon, and their extensive work on the PineTime
 
@@ -22,7 +20,8 @@ Many thanks to lupyuen https://github.com/lupyuen/ for their work on the scripts
 3. Get the desired bootloader file
 4. Connect the Pi to the PineTime SWD pins (look at (https://gist.github.com/lupyuen/6913bcd5ff5a5d67698f8bac0d84599b#file-pi-swd-spi-md))
 5. In a terminal, "cd Desktop" and then run "bash flash-boot.sh"
+* Do not use sudo, it will move ~/ to the su home.
 6. You will be asked to enter the path to the bootloader, enter it
-* Path like ~/Downloads/bootloader.hex etc.
+* Path like ~/Downloads/bootloader.hex ; if that does not work, use /home/pi/{your directory here}
 * You can also drag the file in if your terminal supports it (this should work on Raspbian)
 * Thats all!
