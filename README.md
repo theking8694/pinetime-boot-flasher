@@ -1,4 +1,6 @@
 # pinetime-boot-flasher
+# NOTE: This is not too useful anymore, with the reloader DFU's
+
 I have tested this on my own PineTime :)
 
 Many thanks to lupyuen https://github.com/lupyuen/ for their work on the scripts that this is based upon, and their extensive work on the PineTime
